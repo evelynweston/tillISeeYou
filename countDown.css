@@ -5,7 +5,11 @@
 html, body {
   height: 100vh;
   background: url('assets/asoggetti-413830-unsplash.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
   
 }
 
